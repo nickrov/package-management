@@ -1,0 +1,6 @@
+---
+- name: High level play to run the nested 'package-management' role
+  hosts: all
+
+  roles:
+    - package-management

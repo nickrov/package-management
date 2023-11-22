@@ -1,0 +1,9 @@
+[servers]
+servera
+serverb
+serverc
+
+[clients]
+wks1
+wks2
+wks3

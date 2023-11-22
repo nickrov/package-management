@@ -1,0 +1,7 @@
+---
+# tasks file for package-management
+- name: Install all packages listed in each package list var saved in ../../inventory/group_vars/
+  ansible.builtin.dnf:
+    name: "{{ item }}"
+    state: latest
+  loop: " {{ package_list }}"
